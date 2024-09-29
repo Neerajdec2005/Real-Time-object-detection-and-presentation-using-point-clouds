@@ -1,0 +1,2 @@
+# Real-Time-object-detection-and-presentation-using-point-clouds
+This project focuses on real-time 3D object detection using YOLOv3 in Google Colab. It captures a live video feed, detects objects, and visualizes them in 3D space using libraries like Open3D. The system is ideal for applications like augmented reality and robotics, providing both object identification and spatial context in real-time.
