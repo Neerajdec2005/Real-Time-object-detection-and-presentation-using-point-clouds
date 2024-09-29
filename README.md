@@ -7,10 +7,18 @@ Object Detection Using YOLO: The project begins with real-time object detection 
 
 Exclusion of Specific Classes (Person Filter): A custom filtering process is incorporated to exclude a specific object class, in this case, "person." The filtering ensures that detected persons are ignored in both the object detection output and subsequent point cloud generation. By filtering the class of interest, the system focuses on detecting and generating point clouds for the remaining objects within the scene. This step demonstrates the system’s flexibility to handle varying scenarios and tailor the detection process to specific needs.
 
-Depth Estimation and Point Cloud Generation: Once the target objects are detected, the methodology shifts to point cloud generation. Using image-processing techniques like contour extraction, the boundaries of the detected object are identified. Depth estimation techniques are employed to assign a z-coordinate (depth) to each point in the object's 2D contour, transforming it into a 3D representation. MiDaS, a state-of-the-art monocular depth estimation model, is used in this project to generate depth information from the 2D images, which is essential for accurate point cloud creation.  ![image](https://github.com/user-attachments/assets/7188c9fe-32d1-4779-b189-5006f4cda8a2)
-![image](https://github.com/user-attachments/assets/5aa54a7f-03e5-4633-be4f-75809ed68b9f)
+Depth Estimation and Point Cloud Generation: Once the target objects are detected, the methodology shifts to point cloud generation. Using image-processing techniques like contour extraction, the boundaries of the detected object are identified. Depth estimation techniques are employed to assign a z-coordinate (depth) to each point in the object's 2D contour, transforming it into a 3D representation. MiDaS, a state-of-the-art monocular depth estimation model, is used in this project to generate depth information from the 2D images, which is essential for accurate point cloud creation. 
+
+**1st Implementation-**
+![image](https://github.com/user-attachments/assets/7188c9fe-32d1-4779-b189-5006f4cda8a2)
+
 
 ![image](https://github.com/user-attachments/assets/68f491db-8ece-489c-84a3-bc2e44d33019)
+
+**2nd Implementation-**
+
+![image](https://github.com/user-attachments/assets/5aa54a7f-03e5-4633-be4f-75809ed68b9f)
+
 
 ![image](https://github.com/user-attachments/assets/4650ea28-4358-447a-9810-e73fcf93076f)
 
